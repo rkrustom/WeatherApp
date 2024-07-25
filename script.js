@@ -43,7 +43,7 @@ async function checkWeather(city){
     humidity.innerHTML = `${weather_data.main.humidity}%`;
     wind_speed.innerHTML = `${weather_data.wind.speed}Km/H`;
 
-
+     console.log("hii");
     switch(weather_data.weather[0].main){
         case 'Clouds':
             weather_img.src = "./assets/cloud.png";
